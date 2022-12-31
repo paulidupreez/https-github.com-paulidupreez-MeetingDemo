@@ -21,12 +21,7 @@ struct MeetingDetailView: View {
     var body: some View {
         VStack(spacing: 16) {
             
-//            MapView(interactionMode: [], location: meeting.address ?? "N/A")
-//                .frame(minWidth: 0, maxWidth: .infinity)
-//                .frame(height: 250)
-//                .cornerRadius(20)
-//                .padding([.leading, .trailing])
-//            Spacer()
+
             HStack(alignment:.top) {
                 VStack(alignment: .leading) {
                     Text("ADDRESS")
