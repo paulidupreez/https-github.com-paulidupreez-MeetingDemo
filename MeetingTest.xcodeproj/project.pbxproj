@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69C6E3B6295F554100895460 /* MeetingTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3B5295F554100895460 /* MeetingTestApp.swift */; };
+		69C6E3B8295F554100895460 /* MeetingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3B7295F554100895460 /* MeetingListView.swift */; };
+		69C6E3BA295F554300895460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C6E3B9295F554300895460 /* Assets.xcassets */; };
+		69C6E3BD295F554300895460 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C6E3BC295F554300895460 /* Preview Assets.xcassets */; };
+		69C6E3C4295F557100895460 /* DateScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3C3295F557100895460 /* DateScroller.swift */; };
+		69C6E3C6295F558400895460 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3C5295F558400895460 /* DateHolder.swift */; };
+		69C6E3C8295F562F00895460 /* MeetingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3C7295F562F00895460 /* MeetingList.swift */; };
+		69C6E3CA295F564600895460 /* MeetingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3C9295F564600895460 /* MeetingDetailView.swift */; };
+		69C6E3CC295F565A00895460 /* AddMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3CB295F565A00895460 /* AddMeetingView.swift */; };
+		69C6E3CE295F56FE00895460 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3CD295F56FE00895460 /* Persistence.swift */; };
+		69C6E3D1295F57A400895460 /* MeetingModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3CF295F57A400895460 /* MeetingModel.xcdatamodeld */; };
+		69C6E3DB295F5FE800895460 /* View+Extn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3DA295F5FE800895460 /* View+Extn.swift */; };
+		69C6E3DD295F60A900895460 /* DRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3DC295F60A900895460 /* DRButton.swift */; };
+		69C6E3DF295F611000895460 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3DE295F611000895460 /* ActivityView.swift */; };
+		69C6E3E1295F615100895460 /* EmptyMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3E0295F615100895460 /* EmptyMeetingView.swift */; };
+		69C6E3E7295F820900895460 /* Meeting+Extn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3E6295F820900895460 /* Meeting+Extn.swift */; };
+		69C6E3E9295F829000895460 /* MeetingFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3E8295F829000895460 /* MeetingFilter.swift */; };
+		69C6E3EB295F875000895460 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6E3EA295F875000895460 /* FloatingButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69C6E3B2295F554100895460 /* MeetingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C6E3B5295F554100895460 /* MeetingTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTestApp.swift; sourceTree = "<group>"; };
+		69C6E3B7295F554100895460 /* MeetingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListView.swift; sourceTree = "<group>"; };
+		69C6E3B9295F554300895460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69C6E3BC295F554300895460 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69C6E3C3295F557100895460 /* DateScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScroller.swift; sourceTree = "<group>"; };
+		69C6E3C5295F558400895460 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		69C6E3C7295F562F00895460 /* MeetingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingList.swift; sourceTree = "<group>"; };
+		69C6E3C9295F564600895460 /* MeetingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDetailView.swift; sourceTree = "<group>"; };
+		69C6E3CB295F565A00895460 /* AddMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetingView.swift; sourceTree = "<group>"; };
+		69C6E3CD295F56FE00895460 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		69C6E3D0295F57A400895460 /* MeetingModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeetingModel.xcdatamodel; sourceTree = "<group>"; };
+		69C6E3DA295F5FE800895460 /* View+Extn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extn.swift"; sourceTree = "<group>"; };
+		69C6E3DC295F60A900895460 /* DRButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRButton.swift; sourceTree = "<group>"; };
+		69C6E3DE295F611000895460 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		69C6E3E0295F615100895460 /* EmptyMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMeetingView.swift; sourceTree = "<group>"; };
+		69C6E3E6295F820900895460 /* Meeting+Extn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meeting+Extn.swift"; sourceTree = "<group>"; };
+		69C6E3E8295F829000895460 /* MeetingFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFilter.swift; sourceTree = "<group>"; };
+		69C6E3EA295F875000895460 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C6E3AF295F554100895460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69C6E3A9295F554100895460 = {
+			isa = PBXGroup;
+			children = (
+				69C6E3B4295F554100895460 /* MeetingTest */,
+				69C6E3B3295F554100895460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69C6E3B3295F554100895460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C6E3B2295F554100895460 /* MeetingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C6E3B4295F554100895460 /* MeetingTest */ = {
+			isa = PBXGroup;
+			children = (
+				69C6E3B5295F554100895460 /* MeetingTestApp.swift */,
+				69C6E3B7295F554100895460 /* MeetingListView.swift */,
+				69C6E3B9295F554300895460 /* Assets.xcassets */,
+				69C6E3BB295F554300895460 /* Preview Content */,
+				69C6E3C3295F557100895460 /* DateScroller.swift */,
+				69C6E3C5295F558400895460 /* DateHolder.swift */,
+				69C6E3C7295F562F00895460 /* MeetingList.swift */,
+				69C6E3C9295F564600895460 /* MeetingDetailView.swift */,
+				69C6E3CB295F565A00895460 /* AddMeetingView.swift */,
+				69C6E3CD295F56FE00895460 /* Persistence.swift */,
+				69C6E3CF295F57A400895460 /* MeetingModel.xcdatamodeld */,
+				69C6E3DA295F5FE800895460 /* View+Extn.swift */,
+				69C6E3DC295F60A900895460 /* DRButton.swift */,
+				69C6E3DE295F611000895460 /* ActivityView.swift */,
+				69C6E3E0295F615100895460 /* EmptyMeetingView.swift */,
+				69C6E3E6295F820900895460 /* Meeting+Extn.swift */,
+				69C6E3E8295F829000895460 /* MeetingFilter.swift */,
+				69C6E3EA295F875000895460 /* FloatingButton.swift */,
+			);
+			path = MeetingTest;
+			sourceTree = "<group>";
+		};
+		69C6E3BB295F554300895460 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69C6E3BC295F554300895460 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C6E3B1295F554100895460 /* MeetingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C6E3C0295F554300895460 /* Build configuration list for PBXNativeTarget "MeetingTest" */;
+			buildPhases = (
+				69C6E3AE295F554100895460 /* Sources */,
+				69C6E3AF295F554100895460 /* Frameworks */,
+				69C6E3B0295F554100895460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingTest;
+			productName = MeetingTest;
+			productReference = 69C6E3B2295F554100895460 /* MeetingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C6E3AA295F554100895460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					69C6E3B1295F554100895460 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 69C6E3AD295F554100895460 /* Build configuration list for PBXProject "MeetingTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C6E3A9295F554100895460;
+			productRefGroup = 69C6E3B3295F554100895460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C6E3B1295F554100895460 /* MeetingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C6E3B0295F554100895460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C6E3BD295F554300895460 /* Preview Assets.xcassets in Resources */,
+				69C6E3BA295F554300895460 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C6E3AE295F554100895460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C6E3B8295F554100895460 /* MeetingListView.swift in Sources */,
+				69C6E3CE295F56FE00895460 /* Persistence.swift in Sources */,
+				69C6E3B6295F554100895460 /* MeetingTestApp.swift in Sources */,
+				69C6E3C4295F557100895460 /* DateScroller.swift in Sources */,
+				69C6E3E7295F820900895460 /* Meeting+Extn.swift in Sources */,
+				69C6E3E9295F829000895460 /* MeetingFilter.swift in Sources */,
+				69C6E3C8295F562F00895460 /* MeetingList.swift in Sources */,
+				69C6E3C6295F558400895460 /* DateHolder.swift in Sources */,
+				69C6E3D1295F57A400895460 /* MeetingModel.xcdatamodeld in Sources */,
+				69C6E3E1295F615100895460 /* EmptyMeetingView.swift in Sources */,
+				69C6E3CC295F565A00895460 /* AddMeetingView.swift in Sources */,
+				69C6E3DD295F60A900895460 /* DRButton.swift in Sources */,
+				69C6E3DF295F611000895460 /* ActivityView.swift in Sources */,
+				69C6E3CA295F564600895460 /* MeetingDetailView.swift in Sources */,
+				69C6E3DB295F5FE800895460 /* View+Extn.swift in Sources */,
+				69C6E3EB295F875000895460 /* FloatingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69C6E3BE295F554300895460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69C6E3BF295F554300895460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C6E3C1295F554300895460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeetingTest/Preview Content\"";
+				DEVELOPMENT_TEAM = FG972B4QMB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paul.i.dupreez.MeetingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69C6E3C2295F554300895460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeetingTest/Preview Content\"";
+				DEVELOPMENT_TEAM = FG972B4QMB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paul.i.dupreez.MeetingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C6E3AD295F554100895460 /* Build configuration list for PBXProject "MeetingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C6E3BE295F554300895460 /* Debug */,
+				69C6E3BF295F554300895460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C6E3C0295F554300895460 /* Build configuration list for PBXNativeTarget "MeetingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C6E3C1295F554300895460 /* Debug */,
+				69C6E3C2295F554300895460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69C6E3CF295F57A400895460 /* MeetingModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69C6E3D0295F57A400895460 /* MeetingModel.xcdatamodel */,
+			);
+			currentVersion = 69C6E3D0295F57A400895460 /* MeetingModel.xcdatamodel */;
+			path = MeetingModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69C6E3AA295F554100895460 /* Project object */;
+}
